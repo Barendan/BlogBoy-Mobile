@@ -9,7 +9,6 @@ const ShowScreen = ({ navigation }) => {
   const blogPost = state.find(
     (blogPost) => blogPost.id === navigation.getParam('id')
   );
-  console.log('navy', navigation.getParam('id'));
 
   return (
     <View>
